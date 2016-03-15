@@ -9,7 +9,7 @@ source scripts/property_utils.sh
 
 SQ_HOME=$1
 
-VIEWS_FILE=~/DEV/views/target/sonar-views-plugin-2.10-SNAPSHOT.jar
+VIEWS_FILE=~/DEV/views/target/sonar-views-plugin-2.11-SNAPSHOT.jar
 EXT_DIR=$SQ_HOME/extensions/plugins/
 echo "copy $VIEWS_FILE to $EXT_DIR"
 cp  $VIEWS_FILE $EXT_DIR
