@@ -9,7 +9,7 @@ source scripts/property_utils.sh
 
 SQ_HOME=$1
 
-DEVCOCKPIT_FILE=~/DEV/devcockpit/target/sonar-dev-cockpit-plugin-1.11-SNAPSHOT.jar
+DEVCOCKPIT_FILE=~/DEV/devcockpit/target/sonar-dev-cockpit-plugin-1.12-SNAPSHOT.jar
 EXT_DIR=$SQ_HOME/extensions/plugins/
 echo "copy $DEVCOCKPIT_FILE to $EXT_DIR"
 cp  $DEVCOCKPIT_FILE $EXT_DIR
