@@ -11,7 +11,7 @@ SQ_HOME=$1
 PROPERTY_FILE=$SQ_HOME/conf/sonar.properties
 
 echo "using Postgres"
-set_property sonar.jdbc.username sonar $PROPERTY_FILE
-set_property sonar.jdbc.password sonar $PROPERTY_FILE
-set_property sonar.jdbc.url jdbc:postgresql://localhost:5432/sonar $PROPERTY_FILE
+set_property sonar.jdbc.username sonarqube $PROPERTY_FILE
+set_property sonar.jdbc.password sonarqube $PROPERTY_FILE
+set_property sonar.jdbc.url jdbc:postgresql://localhost:5432/sonarqube $PROPERTY_FILE
 
